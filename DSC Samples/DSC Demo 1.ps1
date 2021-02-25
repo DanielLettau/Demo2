@@ -1,4 +1,4 @@
-﻿configuration Test1 {
+﻿configuration Test2 {
     
     Node localhost {
 
