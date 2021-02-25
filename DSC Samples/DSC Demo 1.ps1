@@ -24,5 +24,5 @@
 }
 
 Remove-Item -Path C:\DSC\*
-Test1 -OutputPath C:\DSC
+Test2 -OutputPath C:\DSC
 #Start-DscConfiguration -Path C:\DSC -Wait -Verbose -Force
