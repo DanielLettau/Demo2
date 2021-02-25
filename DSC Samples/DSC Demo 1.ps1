@@ -1,4 +1,4 @@
-﻿configuration Test2 {
+﻿configuration Test1 {
     
     Node localhost {
 
@@ -24,5 +24,5 @@
 }
 
 Remove-Item -Path C:\DSC\*
-Test2 -OutputPath C:\DSC
+Test1 -OutputPath C:\DSC
 #Start-DscConfiguration -Path C:\DSC -Wait -Verbose -Force

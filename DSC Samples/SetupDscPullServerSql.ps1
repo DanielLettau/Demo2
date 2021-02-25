@@ -91,8 +91,6 @@ Configuration SetupDscPullServer
     }
 }
 
-#Install-Module -Name xPSDesiredStateConfiguration, xWebAdministration -Repository PowerShell
-
 $params = @{
     RegistrationKey = $RegistrationKey
     SqlServer = $SqlServer
